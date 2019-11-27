@@ -44,7 +44,7 @@ class Gallery extends Component {
         });
 
         return (
-            <div className="row">
+            <div className="row row-right">
                 {gallery}
             </div>
         );
