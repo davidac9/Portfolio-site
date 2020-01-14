@@ -13,8 +13,8 @@ import youTeachMe from '../assets/images/fulls/youTeachMe.jpg'
 
 
 const DEFAULT_IMAGES = [
-    { id: '1', source: youTeachMe, thumbnail: youTeachMeThumb, caption: 'youTeachMe', description: 'Created using React, Node, Javascript, Redux and Express, youTeachMe is an app I contributed to where users stuck on coding problems can connect with people who can help. My main contribution was creating and styling the chat feature by implementing a technology called Socket.IO Client. View the hosted project at ', url:'http://104.248.185.128:5309'},
-    { id: '2', source: poke, thumbnail: poke, caption: 'Poké', description: 'A Pokémon themed social media app where users can create profiles and add Pokémon to their profiles, rename them or release them. Users can also view the profiles of other users. This app was created using React, Node, Javascript, Redux and Express. View the hosted project at ', url:'http://104.248.177.96:4004'},
+    { id: '1', source: youTeachMe, thumbnail: youTeachMeThumb, caption: 'youTeachMe', description: 'Created using React, Node, Javascript and Redux, youTeachMe is an app I contributed to where users stuck on coding problems can connect with people who can help. My main contribution was creating and styling the chat feature by implementing a technology called Socket.IO Client. View the hosted project at ', url:'http://104.248.185.128:5309'},
+    { id: '2', source: poke, thumbnail: poke, caption: 'Poké', description: 'A Pokémon themed social media app where users can create profiles and add Pokémon to their profiles, rename them or release them. Users can also view the profiles of other users. This app was created using React, Node, Javascript and Redux. View the hosted project at ', url:'http://104.248.177.96:4004'},
     { id: '3', source: coolorsClone, thumbnail: coolorsClone, caption: 'Random Color Generator', description: 'This app is a clone I created of the color generator feature at coolors.com using React. The app generates random color hex codes, displays the colors on screen and uses The Color API to show color names. Colors can also be locked to prevent them from being lost upon randomization. ', url:'https://github.com/davidac9/coolors-clone'}
 ];
 
@@ -42,6 +42,9 @@ class HomeIndex extends React.Component {
                         {/* <ul className="actions">
                             <li><a href="#" className="button">Learn More</a></li>
                         </ul> */}
+                        <br/>
+                        <h2>Skills</h2>
+                        <p>Javascript | React | Node | PostgreSQL | Redux | HTML | CSS | Git</p>
                     </section>
 
                     <section id="two">
