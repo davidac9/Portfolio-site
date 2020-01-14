@@ -37,7 +37,7 @@ class Gallery extends Component {
                     </a>
 
                     <h3>{obj.caption}</h3>
-                    <p>{obj.description}<a href={obj.url}>{obj.url}</a></p>
+                    <p>{obj.description}<br/><a href={obj.url}>{obj.link}</a>{(obj.link !== '' )? <br/>:<> </>} <a href={obj.url2}>{obj.repo}</a></p>
 
                 </article>
             );
